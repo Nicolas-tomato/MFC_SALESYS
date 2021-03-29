@@ -5,7 +5,6 @@
 #define IDD_SALESYS_DIALOG              102
 #define IDR_MAINFRAME                   128
 #define IDD_LOGIN_DIALOG                130
-#define IDD_DIALOG1                     132
 #define IDD_USERINFO_DIALOG             132
 #define IDC_SALESYS_TAB                 1000
 #define IDLOGIN                         1001

@@ -42,12 +42,14 @@ void CLoginDlg::OnBnClickedLogin()
 	if (true)
 	{
 		//AfxMessageBox("OK");
-		//CSaleSysDlg dlg;
-		//dlg.DoModal();
-		CSaleSysDlg* pSaleSysDlg = new CSaleSysDlg;
+		ShowWindow(SW_HIDE);
+		CSaleSysDlg dlg;
+		dlg.DoModal();
+
+		/*CSaleSysDlg* pSaleSysDlg = new CSaleSysDlg;
 		pSaleSysDlg->Create(IDD_SALESYS_DIALOG,this);
 		pSaleSysDlg->ShowWindow(SW_SHOW);
-		pSaleSysDlg->SetActiveWindow();
+		pSaleSysDlg->SetActiveWindow();*/
 
 		//this->DestroyWindow();
 	}
@@ -55,4 +57,5 @@ void CLoginDlg::OnBnClickedLogin()
 	{
 		AfxMessageBox("Fail");
 	}
+	ShowWindow(SW_SHOW);
 }
